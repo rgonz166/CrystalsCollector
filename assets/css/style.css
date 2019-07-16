@@ -1,0 +1,20 @@
+.title-card{
+    margin-top: 20px;
+}
+#target-score, #your-score, #wins, #losses{
+    font-weight: 400;
+}
+#green-rupee{
+    width: 101%;
+}
+#red-rupee, #blue-rupee {
+    width: 100%;
+}
+#purple-rupee{
+    width: 100.6%;
+}
+.card {
+    margin: 0 center;
+    float: none;
+    margin-bottom: 10px;
+}

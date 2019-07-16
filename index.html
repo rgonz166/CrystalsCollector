@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Crystal Collector</title>
+        <!-- reet css -->
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- style css -->
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    </head>
+    <body>
+        <!-- Main Body -->
+        <div class="container">
+            <!-- Cointainer here -->
+            <div class="row title-card">
+                <!-- jumbotron title -->
+                <div class="col jumbotron jumbotron-fluid">
+                    <div class="container">
+                        <h1 class="display-4">Crystal Collector</h1>
+                        <p class="lead">Click one of the 4 gems</p>
+                        <p class="lead">Each gem has a random hidden value</p>
+                        <p class="lead">Objective of the game is to equal the random value assigned without going over.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- target and your score row -->
+            <div class="row">
+                <!-- target -->
+                <div class="col-sm-12 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4>Target Score: <span id="target-score">20</span></h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- Your Score -->
+                <div class="col-sm-12 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4>Your Score: <span id="your-score">0</span></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <!-- Gems -->
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img id="green-rupee" src="assets/images/Green-Rupee.png">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img id="red-rupee" src="assets/images/Red-Rupee.png">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img id="blue-rupee" src="assets/images/Blue-Rupee.png">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img id="purple-rupee" src="assets/images/Purple-Rupee.png">
+                    </div>
+                </div>
+            </div>
+            <!-- Score area -->
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4>Wins: <span id="wins">0</span></h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- Your Score -->
+                <div class="col-sm-12 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4>Losses: <span id="losses">0</span></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Javascript -->
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <!-- game.js -->
+        <script src="assets/javascript/game.js"></script>
+    </body>
+</html>
