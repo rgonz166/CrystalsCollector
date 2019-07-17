@@ -9,14 +9,9 @@ body {
 #target-score, #your-score, #wins, #losses{
     font-weight: 400;
 }
-#green-rupee{
-    width: 101%;
-}
-#red-rupee, #blue-rupee {
-    width: 100%;
-}
-#purple-rupee{
-    width: 100.6%;
+#green-rupee,#red-rupee, #blue-rupee, #purple-rupee{
+    width: 100px;
+    margin: auto;
 }
 .card {
     margin: 0 center;
